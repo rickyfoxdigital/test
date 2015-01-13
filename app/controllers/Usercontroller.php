@@ -38,6 +38,11 @@ class Usercontroller extends \BaseController {
 	public function store()
 	{
 		//
+
+		if (Input::has('name')&&Input::has('')) 
+		{
+			# code...
+		}
 	}
 
 
