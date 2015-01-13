@@ -39,9 +39,11 @@ class Usercontroller extends \BaseController {
 	{
 		//
 
-		if (Input::has('name')&&Input::has('')) 
+		if (Input::has('name')&&Input::has('email')) 
 		{
-			# code...
+			$user=User::create([
+				               
+				              ]);
 		}
 	}
 

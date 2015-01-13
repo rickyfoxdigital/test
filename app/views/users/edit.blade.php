@@ -3,7 +3,7 @@
     @if($method=="post"||$method=="put")
     
     <h3>Add user/ edit user</h3>
-    <form method="{{$method}}" action="users">
+    <form method="{{$method}}" action="/users" data-validate>
 
     <input type="text" name="name" data-required="true">
     <input type="email" data-required="true">
